@@ -1,0 +1,23 @@
+.footer {
+    max-width: 1376px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    padding: 0 20px;
+    &__wraper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__rights {
+        font-family: "Roboto", sans-serif;
+    }
+    &__delivery {
+        font-family: "Roboto", sans-serif;
+    }
+    &__social-networks {
+        display: flex;
+        gap: 1.9792vw;
+    }
+    &__social {
+        font-family: "Roboto", sans-serif;
+    }
+}

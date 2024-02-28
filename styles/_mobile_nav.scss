@@ -1,0 +1,47 @@
+.mobile__navigation {
+    display: none;
+    
+    &-toggler {
+        display: none;
+    }
+
+    &-nav-number {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: gray;
+        translate: 100% 0;
+        transition: all .33s;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        row-gap: 50px;
+        font-size: 30px;
+    }
+    &__number {
+        padding-top: 20px;
+    }
+
+    &-toggler:checked + &-nav-number {
+        translate: 0;
+    }
+    &-menu {
+        position: relative;
+    }
+
+    &-list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    &-cross {
+        width: 34px;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+    
+}
